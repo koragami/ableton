@@ -14,6 +14,9 @@ export default function Navigation() {
           >
             <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
           </svg>
+          <div id="menu">
+            Menu <span id="menu-icon">▼</span>
+          </div>
         </div>
         <div id="main-navigation-bar__left__links">
           <ul>

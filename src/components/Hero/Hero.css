@@ -1,0 +1,23 @@
+.above-hero {
+  width: 100%;
+  height: 5vh;
+  font-size: 0.865em;
+  font-weight: 550;
+  padding: 1.5em;
+}
+
+#about-jobs-apprenticeships,
+ul {
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5em;
+  list-style: none;
+}
+
+#about-jobs-apprenticeships ul li a {
+  text-decoration: none;
+  color: #000;
+}
