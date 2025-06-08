@@ -6,7 +6,7 @@
   #menu {
     display: inline-flex !important;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 500;
     padding-left: 1.5em;
     position: relative;
@@ -16,6 +16,7 @@
     font-size: 0.5em;
     font-weight: 300;
     display: flex;
+    margin-top: 0.3em;
     align-items: center;
     padding-left: 1.5em;
   }
@@ -35,7 +36,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8vh;
+  height: 7.5vh;
   width: 100vw;
   padding: 0 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -50,7 +51,8 @@
 }
 
 .main-navigation-bar #logo svg {
-  height: 3.5vh;
+  width: 3.5em;
+  height: 3vh;
   vertical-align: middle;
 }
 

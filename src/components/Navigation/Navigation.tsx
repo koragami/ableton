@@ -2,7 +2,7 @@ import "./Navigation.css";
 
 export default function Navigation() {
   return (
-    <nav className="main-navigation-bar">
+    <nav className="main-navigation-bar page">
       <div className="main-navigation__left">
         <div id="logo">
           <svg

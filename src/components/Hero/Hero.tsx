@@ -2,7 +2,7 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <>
+    <div className="page">
       <div className="above-hero">
         <div id="about-jobs-apprenticeships">
           <ul>
@@ -22,8 +22,16 @@ export default function Hero() {
       </div>
 
       <section className="hero-section">
-        <div id="hero-container"></div>
+        <div className="hero-container">
+          <div id="background-image">
+            <img
+              src="https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg"
+              alt="This picture contains a person working for ableton"
+            />
+            <h1 id="header">Ableton</h1>
+          </div>
+        </div>
       </section>
-    </>
+    </div>
   );
 }
